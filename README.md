@@ -59,11 +59,11 @@ Here are screenshots of the Real Estate Pro Chatbot interface:
 
 1. **Interface Before Entering a Question**
 
-   ![Interface Before Question](/path/to/your/screenshot_before_question.png)
+   ![Interface Before Question](chatbot_before.png)
 
 2. **Interface After Receiving a Response**
 
-   ![Interface After Response](/path/to/your/screenshot_after_response.png)
+   ![Interface After Response](chatbot_after.png)
 
 ## Customization and Usage
 
