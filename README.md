@@ -1,5 +1,5 @@
 
-# Real Estate Pro Chatbot
+# OpenAI_chatbot
 
 This project provides a template for creating a chatbot using OpenAI's GPT model and Gradio. It's designed to be a user-friendly interface for real estate investment and negotiation advice, but can be customized for various other applications. Users can interact with a GPT-powered chatbot, receiving insights and responses to a wide range of queries.
 
