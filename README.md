@@ -28,6 +28,17 @@ Ensure that you have Python installed on your system. This application requires 
    ```bash
    pip install gradio
    ```
+### Additional Setup: OpenAI Account and API Key Creation
+Before using the chatbot, an OpenAI account and an API key are required.
+
+Creating an OpenAI Account
+1. Visit the OpenAI website and sign up.
+2. Verify your account via the link sent to your email.
+
+Generating an API Key
+1. Log into your OpenAI account.
+2. Navigate to the 'API' section and generate a new API key.
+3. Securely store the generated API key.
 
 ### Configuration
 
