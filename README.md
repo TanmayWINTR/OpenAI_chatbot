@@ -66,15 +66,9 @@ Generating an API Key
 
 ## Interface Screenshots
 
-Here are screenshots of the Real Estate Pro Chatbot interface:
+Here is a screenshot of the Real Estate Pro Chatbot interface:
 
-1. **Interface Before Entering a Question**
-
-   ![Interface Before Question](chatbot_before.png)
-
-2. **Interface After Receiving a Response**
-
-   ![Interface After Response](chatbot_after.png)
+(chatbot.png)
 
 ## Customization and Usage
 
