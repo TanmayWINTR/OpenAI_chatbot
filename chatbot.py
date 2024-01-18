@@ -27,13 +27,21 @@ def clear_messages():
     messages.append({"role": "system", "content": "You are a financial expert specializing in real estate investment and negotiation"})
     return "Chat history cleared."
 
+# Fun and Interactive Gradio Interface
 with gr.Blocks() as demo:
-    gr.Markdown("### Real Estate Pro Chatbot")
-    gr.Markdown("Ask any questions about real estate investment and negotiation.")
-    input_text = gr.Textbox(label="Your Question", placeholder="Enter your question here...")
-    output_text = gr.Textbox(label="Chatbot Response", placeholder="Response will appear here...")
-    clear_button = gr.Button("Clear Chat")
-    submit_button = gr.Button("Submit")
+    with gr.Column(scale=1):
+        gr.Markdown("## 🚀 Real Estate Pro Chatbot 🏡")
+        gr.Markdown("### Got questions about real estate? 🤔 Let's dive in!")
+        
+    with gr.Column(scale=1):
+        gr.Markdown("#### Ask away! Type your burning question below 👇")
+        input_text = gr.Textbox(label="Your Question", placeholder="Enter your question here...")
+        submit_button = gr.Button("Submit", variant="primary")
+
+    with gr.Column(scale=1):
+        gr.Markdown("#### 🌟 Here's what our expert says:")
+        output_text = gr.Textbox(label="Chatbot Response", interactive=True, placeholder="Response will appear here...")
+        clear_button = gr.Button("Start Over", variant="secondary")
 
     submit_button.click(CustomChatGPT, inputs=input_text, outputs=output_text)
     clear_button.click(clear_messages, inputs=None, outputs=output_text)
