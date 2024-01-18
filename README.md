@@ -66,9 +66,9 @@ Generating an API Key
 
 ## Interface Screenshots
 
-Here is a screenshot of the Real Estate Pro Chatbot interface:
+Here is a screenshot of the Chatbot interface:
 
-(chatbot.png)
+![Chatbot Interface](chatbot.png)
 
 ## Customization and Usage
 
